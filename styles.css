@@ -1,0 +1,1900 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 8px solid rgb(82, 80, 80);
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+    
+}
+.section-1{
+  background-image: url("Background Image/background-image-1.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.sec-top img{
+    height: 5vh;
+    width: 18vh;
+   margin-left: 10vh;
+   
+}
+.sec-top{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+padding: 2.5vh;
+
+}
+.option{
+    width: 35vh;
+    padding: 0vh 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10vh ;
+}
+.sec-top .option select{
+   font-size: 2.1vh;
+   width: 17vh;
+}
+.sec-top option{
+    display: flex;
+    text-align: center;
+}
+
+#btnSignIn a{
+    color: white;
+    text-decoration: none;
+}
+
+.sec-top select{
+    color: white;
+    font-size: 2.5vh;
+    width: 20vh;
+    padding:0.7vh;
+    border:1px solid rgb(108, 106, 106);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(35, 46, 53);
+    
+}
+.sec-top select:focus{
+    border: 1px solid white;
+}
+.sec-top option{
+    color: black;
+    background-color:white ;
+}
+.sec-top button{
+    background-color: red;
+    width: 11vh;
+    height:4.2vh;
+    border-radius:0.7vh ;
+    margin-bottom: -1.5vh;
+
+}
+
+
+.sec-top button:hover{
+    background-color: rgb(186, 7, 7);
+}
+
+.words-1{
+    color: white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.words-1 h1{
+    font-size: 7vh;
+    padding: 2vh;
+}
+
+.words-1 h3{
+    font-size: 4vh;
+    font-weight: 400;
+    padding-bottom: 3vh;
+}
+.words-1 p{
+    font-size: 3.2vh;
+    font-weight: 450;
+    padding-bottom: 3vh;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input input{
+    width: 55vh;
+    opacity: 0.55;
+   padding-top:2.2vh;
+   padding-bottom: 2.2vh;
+   padding-left: 3vh;
+    font-size:2.5vh;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(89, 85, 85);
+}
+.input input:focus{
+    border: 1px solid white;
+}
+.input button{
+    color: white;
+    margin-left: 2vh;
+    background-color: red;
+    border: none;
+    padding-top:2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 4vh;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: rgb(186, 7, 7); 
+}
+
+/* ------------------------------------Second Section----------------------------------- */
+
+.section-2{
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    border-bottom: 8px solid rgb(82, 80, 80);
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+    
+}
+.second-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    position: relative;
+}
+.words-2{
+    color: white;
+}
+
+.words-2 h1{
+    color: white;
+    font-size: 7vh;
+    font-weight: 900;
+}
+.words-2 p{
+    font-size: 3.5vh;
+    font-weight: 500;
+}
+.section-2 img{
+    background: url("Background Image/GodzillaVSKong.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+}
+
+/* ------------------------------------------Third Section----------------------------------------- */
+
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family:Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+border-bottom: 8px solid rgb(82, 80, 80);
+}
+.total-content{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: left;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.words-3{
+    color: white;
+}
+.words-3 h1{
+    font-size: 7vh;
+    font-weight: 800;
+}
+.words-3 p{
+    font-size: 4vh;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+
+/* ------------------------------------------Fourth Section----------------------------------------- */
+
+
+.section-4{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family:Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+border-bottom: 8px solid rgb(82, 80, 80);
+}
+.total-content-2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: left;
+}
+
+.words-4{
+    color: white;
+}
+
+.words-4 h1{
+    font-size: 7vh;
+    font-weight: 800;
+}
+.words-4 p{
+    font-size: 3.5vh;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+/* ------------------------------------------Fifth Section----------------------------------------- */
+
+
+.section-5{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family:Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+border-bottom: 8px solid rgb(82, 80, 80);
+}
+.total-content-3{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: left;
+}
+
+.words-5{
+    color: white;
+}
+
+.words-5 h1{
+    font-size: 7vh;
+    font-weight: 800;
+}
+.words-5 p{
+    font-size: 4vh;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+/* -----------------------------------Sixth Section------------------------------------------*/
+
+.section-6{
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family:Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+border-bottom: 8px solid rgb(82, 80, 80);
+}
+
+.total-content-4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head h1{
+    font-size: 7vh;
+    font-weight: 800;
+}
+.list{
+    width: 100%;
+    margin-top: 4vh;
+  
+}
+.list li{
+    width: 100%;
+    list-style:none;
+  margin: 2vh 0px;
+  max-height: 750px;
+  
+}
+.list li label{
+    display: flex;
+    align-items: center;
+   cursor: pointer;
+   position: relative;
+   background: #303030;
+   width: 100%;
+   font-size: 3.6vh;
+   padding:2.5vh 2vh;
+   font-weight: 400;
+}
+
+.list li label:hover{
+    background-color: rgb(71, 68, 68);
+}
+
+.list li label::after{
+    content: '+';
+    font-size: 8vh;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    right: 3vh;
+    transition: transform 0.5s;
+}
+
+.list input[type="radio"]{
+    display: none;
+}
+
+.list .answer{
+background: #303030;
+font-size: 3.5vh;
+text-align: left;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s,padding 0.5s;
+}
+
+.list .answer p{
+    padding: 1vh 0vh;
+    
+}
+
+.list input[type="radio"]:checked + label +.answer{
+    max-height: 600px;
+    padding:2.5vh 2vh;
+    margin-top: 0.5vh;
+}
+
+.list input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.ready-to-watch p{
+    margin-top: 3.5vh;
+font-size: 3vh;
+}
+
+.input-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5vh;
+}
+
+.input-end input{
+    width: 55vh;
+   padding-top:2.2vh;
+   padding-bottom: 2.2vh;
+   padding-left: 3vh;
+    font-size:2.5vh;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(18, 17, 17);
+    border-radius: 5px;
+    border: 1px solid rgb(89, 85, 85);
+}
+.input-end input:focus{
+    border: 1px solid white;
+}
+.input-end button{
+    color: white;
+    margin-left: 2vh;
+    background-color: red;
+    border: none;
+    padding-top:1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    font-size: 3.7vh;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input-end button:hover{
+    background-color: rgb(186, 7, 7); 
+}
+
+
+/*-------------------------------------Seventh Section---------------------------------------*/
+
+
+.section-7{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+flex-direction: column;
+
+text-align: center;
+font-family:Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+
+}
+.total-content-5{
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    color: grey;
+    align-items: center;
+}
+.total-content-5 a{
+    color: grey;
+}
+
+.row1{
+    height: 100%;
+    width: 50%;
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+.row2{
+    height: 100%;
+    width: 50%;
+    padding: 1vh;
+    display: flex;
+    flex-direction:row ;
+}
+
+.column-1 option{
+    text-align: center;
+}
+.column-1 select{
+    color: white;
+    font-size: 2.3vh;
+    width: 18vh;
+    padding:5px;
+    border:1px solid rgb(108, 106, 106);
+    border-radius: 5px;
+    text-align: center;
+    background-color:black;
+    
+}
+.column-1 select:focus{
+    border: 1px solid white;
+}
+.column-1 option{
+    color: black;
+    background-color:white ;
+}
+
+
+.total-content-5 a{
+padding: 1.5vh;
+color:rgb(161, 159, 159);
+}
+
+
+.column-1{
+    width: 50%;
+    height: 100%;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+.option select{
+    margin-top: 2vh;
+}
+
+
+.column-1 #Quiz{
+    text-decoration: none;
+  
+}
+.column-1 #Quiz span{
+    text-decoration: underline;
+}
+
+
+.column-2{
+    display:flex;
+    height: 100%;
+    width: 50%;
+    padding: 2vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.column-3{
+    height: 100%;
+    width: 50%;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.column-4{
+    height: 100%;
+    width: 50%;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------Responsive for mobile------------------------------------*/
+
+
+/* ---------------------------------1400px responsive--------------------------------------- */
+
+@media (min-width:1200px) and (max-width:1500px){
+    body{
+        width: 100%;
+    }
+    .section-1{
+        width: 100%;
+        padding: 2.5vh;
+        height: 100vh;
+    }
+    .sec-top {
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+    .sec-top img{
+        justify-content:space-between;
+        height: 4vh;
+        width: 15vh;
+        margin-left:4vh;
+      
+    }
+    .option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .option{
+        padding: 1vh;
+        width: 35vh;
+    }
+    .sec-top .option select{
+        margin-top: -0.5vh;
+        height: 5vh;
+    }
+    
+    .option button{
+        margin-top: 0.6vh;
+        font-size: 2vh;
+        height: 4.5vh;
+        margin-top: -2vh;
+    }
+    .input{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+    }
+    .input input{
+        text-align:left;
+        opacity: 0.8;
+        border: 1px solid rgb(172, 164, 164);
+    }
+    .input input::placeholder{
+        color: white;
+    }
+    .input button{
+        font-size: 3.5vh;
+        font-weight: 600;
+        padding: 1.6vh;
+        color: rgb(247, 239, 239);
+    }
+    
+    /* -----------------------Section-2------------------------------------------- */
+    .section-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+        padding: 2.5vh;
+    }
+    
+    .second-sec{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        padding: 2vh;
+    } 
+    
+    /* ------------------------------section-3------------------------------------------------ */
+    
+    .section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5vh;
+    height: 80vh;
+    }
+    
+    .total-content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2vh;
+    width: 100%;
+    }
+    /* -------------------------------------section-4-------------------------------- */
+    
+    .section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5vh;
+    height: 80vh;
+    }
+    
+    .total-content-2{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    display: flex;
+    padding: 2vh;
+    }
+    /* ---------------------------------------section-5------------------------------- */
+    
+    .section-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5vh;
+    height: 80vh;
+    }
+    
+    .total-content-3{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    } 
+    
+    /* --------------------------------------section-6------------------------------------ */
+    
+    .section-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    padding: 2.5vh;
+    }
+    
+    .total-content-4{
+    width: 100%;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .list li label{
+    font-size: 3vh;
+    font-weight: 400;
+    height: 8vh;
+    }
+    .list li{
+    width: 100%;
+    }
+
+    .list li label::after{
+        font-size: 7vh;
+        margin-top: -1vh;
+    }
+    
+    .answer p{
+    font-size:2.8vh;
+    }
+    .input-end{
+        align-items: center;
+        justify-content:center;
+    }
+    .input-end input::placeholder{
+        color: rgb(206, 204, 204);
+    }
+    .input-end button{
+        height: 7.5vh;
+        padding: 1vh;
+        width: 30vh;
+        font-weight: 600;
+    }
+    
+    /* ---------------------------------------section-7-------------------------------------------- */
+    
+    .section-7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+        padding: 2.5vh;
+        }
+        
+        .total-content-5{
+        width: 100%;
+        padding: 2vh;
+        display: flex;
+        height: 100%;
+        }
+    }
+
+/*-------------------------Responsive for mobile------------------------------------*/
+
+
+/* ---------------------------------800px-1200px responsive--------------------------------------- */
+
+@media (min-width:800px) and (max-width:1200px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+.section-1{
+    width: 100%;
+    padding: 2.5vh;
+    height: 95vh;
+}
+.sec-top {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+.sec-top img{
+    justify-content:space-between;
+    height: 4vh;
+    width: 15vh;
+    margin-left:4vh;
+  
+}
+.option{
+    padding: 0.5vh;
+    width: 40vh;
+    margin: 0;
+    justify-content:space-between;
+}
+.option select{
+    margin-top: -0.1vh;
+}
+.option button{
+    margin: 2vh;
+}
+
+.words-1{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+}
+
+.words-1 h1{
+    margin-top:-10vh;
+    font-size: 5vh;
+}
+.words-1 h3{
+    font-size: 3vh;
+}
+.words-1 p{
+    font-size: 3vh;
+}
+.input{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+.input input{
+    text-align:left;
+    opacity: 0.8;
+    border: 1px solid rgb(172, 164, 164);
+}
+.input input::placeholder{
+    color: white;
+}
+.input button{
+    font-size: 3.5vh;
+    font-weight: 600;
+    border-radius: 1.3vh;
+    padding: 1.6vh;
+    background-color: rgb(204, 5, 5);
+    color: rgb(237, 226, 226);
+}
+
+/* -----------------------Section-2------------------------------------------- */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5vh;
+    height: 100vh;
+}
+
+.second-sec{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 2vh;
+}
+.second-sec img{
+    height:45vh;
+}
+.words-2{
+    padding: 1.5vh;
+}
+.words-2 h1{
+    font-size: 4vh;
+}
+.words-2 p{
+    padding: 2vh;
+    font-size: 2.8vh;
+    font-weight: 400;
+}  
+
+/* ------------------------------section-3------------------------------------------------ */
+
+.section-3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 2.5vh;
+height: 100vh;
+}
+
+.total-content{
+width: 100%;
+justify-content: center;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column-reverse;
+padding: 2vh;
+width: 100%;
+}
+.mobile img{
+height:45vh;
+}
+.words-3{
+padding: 1vh;
+}
+.words-3 h1{
+font-size: 5vh;
+}
+.words-3 p{
+    padding: 2vh;
+    font-size: 2.8vh;
+    font-weight: 400;
+}
+
+/* -------------------------------------section-4-------------------------------- */
+
+.section-4{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 2.5vh;
+height: 100vh;
+}
+
+.total-content-2{
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items:center;
+text-align:center;
+display: flex;
+flex-direction: column;
+padding: 2vh;
+}
+
+.device-pile img{
+    height: 45vh;
+}
+.words-4{
+    padding: 1vh;
+    }
+    .words-4 h1{
+    font-size: 5vh;
+    }
+    .words-4 p{
+        padding: 2vh;
+        font-size: 2.8vh;
+        font-weight: 400;
+    }
+
+
+/* ---------------------------------------section-5------------------------------- */
+
+.section-5{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 2.5vh;
+height: 100vh;
+}
+
+.total-content-3{
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: column-reverse;
+}
+
+.chid-image img{
+height: 45vh;
+}
+.words-5{
+padding: 1.5vh;
+}
+.words-5{
+    padding: 1.5vh;
+    }
+    .words-5 h1{
+    font-size: 5vh;
+    }
+    .words-5 p{
+        padding: 2vh;
+        font-size: 2.8vh;
+        font-weight: 400;
+    } 
+
+/* --------------------------------------section-6------------------------------------ */
+
+.section-6{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 160vh;
+padding: 2.5vh;
+}
+
+.total-content-4{
+width: 100%;
+padding: 2vh;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.head h1{
+font-size: 5vh;
+}
+.list li label{
+font-size: 2.8vh;
+font-weight: 400;
+height: 8vh;
+}
+.list li{
+width: 100%;
+}
+.list li label::after{
+    font-size: 7vh;
+    margin-top: -0.9vh;
+}
+
+.answer p{
+font-size:2.8vh;
+}
+
+.option {
+justify-content: left;
+}
+.ready-to-watch{
+width: 80vh;
+}
+.ready-to-watch p{
+font-size: 2.8vh;
+}
+.input-end{
+    align-items: center;
+    justify-content:center;
+    height: 28vh;
+    display: flex;
+    padding: 2vh;
+    flex-direction: column;
+}
+.input-end input{
+    width: 100%;
+}
+.input-end input::placeholder{
+    color: rgb(206, 204, 204);
+}
+.input-end button{
+    height: 7vh;
+    padding: 1vh;
+    margin-top: 2.5vh;
+    width: 30vh;
+    background-color: rgb(196, 8, 8);
+    font-weight: 600;
+}
+
+/* ---------------------------------------section-7-------------------------------------------- */
+
+.section-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    padding: 2.5vh;
+    }
+    
+    .total-content-5{
+    width: 100%;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+
+}
+
+
+
+/* ---------------------------------500px-800px responsive--------------------------------------- */
+
+@media (min-width:500px) and (max-width:800px){
+    body{
+        width: 100%;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+
+    
+.section-1{
+    width: 100%;
+    padding: 2.5vh;
+    height: 90vh;
+}
+.sec-top {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+.sec-top img{
+    justify-content:space-between;
+    height: 3.5vh;
+    width: 12vh;
+    margin-left:2vh;
+  
+}
+.option{
+    padding: 0.5vh;
+    width: 30vh;
+    margin: 0;
+    justify-content:space-between;
+}
+.option select{
+    margin-top: -0.1vh;
+}
+.option button{
+    margin: 2vh;
+}
+
+.words-1{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+}
+
+.words-1 h1{
+    font-size: 4vh;
+}
+.words-1 h3{
+    font-size: 2.5vh;
+}
+.words-1 p{
+    font-size: 2.5vh;
+}
+.input{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    padding: 2vh;
+    display: flex;
+}
+.input input{
+    text-align:left;
+    opacity: 0.8;
+    border: 1px solid rgb(172, 164, 164);
+    width: 100%;
+}
+.input input::placeholder{
+    color: white;
+}
+.input button{
+    font-size: 2.8vh;
+    font-weight: 600;
+    border-radius: 1.3vh;
+    padding: 1.6vh;
+    margin-top: 2.5vh;
+    background-color: rgb(204, 5, 5);
+    color: rgb(237, 226, 226);
+}
+
+/* -----------------------Section-2------------------------------------------- */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.5vh;
+    height: 80vh;
+}
+
+.second-sec{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 2vh;
+}
+.second-sec img{
+    height:38vh;
+}
+.words-2{
+    padding: 1.5vh;
+}
+.words-2 h1{
+    font-size: 4vh;
+}
+.words-2 p{
+    padding: 2vh;
+    font-size: 2.5vh;
+    font-weight: 400;
+}  
+
+/* ------------------------------section-3------------------------------------------------ */
+
+.section-3{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 2.5vh;
+height: 80vh;
+}
+
+.total-content{
+width: 100%;
+justify-content: center;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column-reverse;
+padding: 2vh;
+width: 100%;
+}
+.mobile img{
+height:38vh;
+}
+.words-3{
+padding: 1vh;
+}
+.words-3 h1{
+font-size: 4vh;
+}
+.words-3 p{
+    padding: 2vh;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+/* -------------------------------------section-4-------------------------------- */
+
+.section-4{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 2.5vh;
+height: 80vh;
+}
+
+.total-content-2{
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items:center;
+text-align:center;
+display: flex;
+flex-direction: column;
+padding: 2vh;
+}
+
+.device-pile img{
+    height: 38vh;
+}
+.words-4{
+    padding: 1vh;
+    }
+    .words-4 h1{
+    font-size: 4vh;
+    }
+    .words-4 p{
+        padding: 2vh;
+        font-size: 2.5vh;
+        font-weight: 400;
+    }
+
+
+/* ---------------------------------------section-5------------------------------- */
+
+.section-5{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 2.5vh;
+height: 100vh;
+}
+
+.total-content-3{
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: column-reverse;
+}
+
+.chid-image img{
+height: 38vh;
+}
+.words-5{
+padding: 1.5vh;
+}
+.words-5{
+    padding: 1.5vh;
+    }
+    .words-5 h1{
+    font-size: 4vh;
+    }
+    .words-5 p{
+        padding: 2vh;
+        font-size: 2.5vh;
+        font-weight: 400;
+    } 
+
+/* --------------------------------------section-6------------------------------------ */
+
+.section-6{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 150vh;
+padding: 2.5vh;
+}
+
+.total-content-4{
+width: 100%;
+padding: 2vh;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.head h1{
+font-size: 4vh;
+}
+.list li label{
+font-size: 2.5vh;
+font-weight: 400;
+height: 7vh;
+}
+.list li{
+width: 100%;
+}
+
+.list li label::after{
+    font-size: 6vh;
+    margin-top: -0.8vh;
+}
+.answer p{
+font-size:2.5vh;
+}
+.ready-to-watch{
+width: 100%;
+padding: 1vh;
+}
+.ready-to-watch p{
+font-size: 2.5vh;
+}
+.input-end{
+    align-items: center;
+    justify-content:center;
+    height: 28vh;
+    display: flex;
+    padding: 2vh;
+    flex-direction: column;
+}
+.input-end input{
+    width: 100%;
+}
+.input-end input::placeholder{
+    color: rgb(206, 204, 204);
+}
+.input-end button{
+    font-size: 3vh;
+    padding: 1.8vh;
+    margin-top: 2.5vh;
+    width: 30vh;
+    background-color: rgb(196, 8, 8);
+    font-weight: 600;
+}
+
+/* ---------------------------------------section-7-------------------------------------------- */
+
+.section-7{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding: 2.5vh;
+    }
+    
+    .total-content-5{
+    width: 100%;
+    height: 100%    ;
+    padding: 2vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    }
+    .total-content-5 a{
+        font-size: 1.8vh;
+    }
+    .total-content-5 select{
+        font-size: 1.8vh;
+    }
+    .row1{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding: 1vh;
+        flex-direction: column;
+    }
+    .row2{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding: 1vh;
+        flex-direction: column;
+
+    }
+    .column-1{
+        width: 100%;
+        padding: 1.5vh;
+    }
+    .column-2{
+        width: 100%;
+        padding: 1.5vh;
+    }
+    .column-3{
+        width: 100%;
+        padding: 1.5vh;
+    }
+    .column-4{
+        width: 100%;
+        padding: 1.5vh;
+    }
+
+}
+
+
+
+
+
+
+/* ---------------------------------50px-500px responsive--------------------------------------- */
+
+@media (min-width:50px) and (max-width:500px){
+    body{
+        width: 100%;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+
+    ::-webkit-scrollbar{
+        width: 10vh;
+        background-color: #111;
+      }
+      ::-webkit-scrollbar-thumb{
+        background-color: rgb(206, 10, 42);
+        border-radius: 2vh;
+      }
+    
+.section-1{
+    width: 100%;
+    padding: 1vh;
+    height: 70vh;
+}
+.sec-top {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 0.5vh;
+}
+.sec-top img{
+    height: 3vh;
+    width: 12vh;
+    margin-left:0vh;
+  
+}
+.option{
+    padding:0vh 0vh 0vh 1vh;
+    width: 25vh;
+    margin: 0;
+    justify-content:space-between;
+
+}
+.option select{
+    margin-top: -0.1vh;
+}
+.option button{
+    margin: 2vh 0vh 2vh 2vh;
+}
+
+.words-1{
+    width: 100%;
+    height: 32vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.words-1 h1{
+    font-size: 3vh;
+}
+.words-1 h3{
+    font-size: 2vh;
+}
+.words-1 p{
+    font-size: 2vh;
+}
+.input{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    padding: 0vh 2vh 1vh 2vh ;
+    display: flex;
+
+}
+.input input{
+    text-align:left;
+    opacity: 0.8;
+    border: 1px solid rgb(172, 164, 164);
+    width: 100%;
+    font-size: 2.2vh;
+}
+.input input::placeholder{
+    color: white;
+}
+.input button{
+    font-size: 2.3vh;
+    font-weight: 600;
+    border-radius: 1.3vh;
+    padding: 1.6vh;
+    margin-top: 2.5vh;
+    background-color: rgb(204, 5, 5);
+    color: rgb(237, 226, 226);
+}
+
+/* -----------------------Section-2------------------------------------------- */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1vh;
+    height: 60vh;
+}
+
+.second-sec{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 1vh;
+}
+.second-sec img{
+    height:28vh;
+}
+.words-2{
+    padding: 1vh;
+}
+.words-2 h1{
+    font-size: 3vh;
+}
+.words-2 p{
+    padding: 2vh;
+    font-size: 2vh;
+    font-weight: 400;
+}  
+
+/* ------------------------------section-3------------------------------------------------ */
+
+.section-3{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 1vh;
+height: 60vh;
+}
+
+.total-content{
+width: 100%;
+justify-content: center;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column-reverse;
+padding: 1vh;
+width: 100%;
+}
+.mobile img{
+height:28vh;
+}
+.words-3{
+padding: 1vh;
+}
+.words-3 h1{
+font-size: 3vh;
+}
+.words-3 p{
+    padding: 1vh;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+/* -------------------------------------section-4-------------------------------- */
+
+.section-4{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 1vh;
+height: 60vh;
+}
+
+.total-content-2{
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items:center;
+text-align:center;
+display: flex;
+flex-direction: column;
+padding: 1vh;
+}
+
+.device-pile img{
+    height: 28vh;
+}
+.words-4{
+    padding: 1vh;
+    }
+    .words-4 h1{
+    font-size: 3vh;
+    }
+    .words-4 p{
+        padding: 2vh;
+        font-size: 2vh;
+        font-weight: 400;
+    }
+
+
+/* ---------------------------------------section-5------------------------------- */
+
+.section-5{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 1vh;
+height: 60vh;
+}
+
+.total-content-3{
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: column-reverse;
+}
+
+.chid-image img{
+height: 28vh;
+}
+.words-5{
+padding: 1vh;
+}
+.words-5{
+    padding: 1vh;
+    }
+    .words-5 h1{
+    font-size: 3vh;
+    }
+    .words-5 p{
+        padding: 1vh;
+        font-size: 2vh;
+        font-weight: 400;
+    } 
+
+/* --------------------------------------section-6------------------------------------ */
+
+.section-6{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 135vh;
+padding: 1vh;
+}
+
+.total-content-4{
+width: 100%;
+padding: 1vh;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.head h1{
+font-size: 3vh;
+}
+.list li label{
+font-size: 2vh;
+font-weight: 400;
+height: 5vh;
+}
+.list li{
+width: 100%;
+}
+.list li label::after{
+    font-size: 4vh;
+    margin-top: -0.6vh;
+}
+
+.answer p{
+font-size:2vh;
+}
+.ready-to-watch{
+width: 100%;
+padding: 1vh;
+}
+.ready-to-watch p{
+font-size: 2vh;
+}
+.input-end{
+    align-items: center;
+    justify-content:center;
+    height: 23vh;
+    display: flex;
+    padding: 2vh;
+    flex-direction: column;
+
+}
+.input-end input{
+    width: 100%;
+    font-size: 2vh;
+    padding: 1.5vh;
+}
+.input-end input::placeholder{
+    color: rgb(206, 204, 204);
+}
+.input-end button{
+    font-size: 2.2vh;
+    padding: 1vh;
+    margin-top: 2vh;
+    width: 20vh;
+    background-color: rgb(196, 8, 8);
+    font-weight: 600;
+}
+
+/* ---------------------------------------section-7-------------------------------------------- */
+
+.section-7{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    padding: 1vh;
+    }
+    
+    .total-content-5{
+    width: 100%;
+    height: 100%;
+    padding: 2vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    }
+    .total-content-5 a{
+        font-size: 1.5vh;
+    }
+    .total-content-5 select{
+        font-size: 1.3vh;
+    }
+    .row1{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding: 1vh;
+        flex-direction: column;
+    }
+    .row2{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding: 1vh;
+        flex-direction: column;
+
+    }
+    .column-1{
+        width: 100%;
+        padding: 1vh;
+    }
+    .column-2{
+        width: 100%;
+        padding: 1vh;
+    }
+    .column-3{
+        width: 100%;
+        padding: 1vh;
+    }
+    .column-4{
+        width: 100%;
+        padding: 1vh;
+    }
+
+}

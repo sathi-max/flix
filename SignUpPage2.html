@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="SignUpPage2.css">
+    <link rel="icon" href="netflix_logo_icon.png">
+</head>
+<body>
+    <section class="sec-1">
+        <form action="" id="work">
+            <div class="container">
+                <img src="netflix_official_logo_icon.png" id="netflix-logo">
+                <a href="SignInPage.html" id="btn-SignIn">Sign In</a>
+            </div>
+
+            <div class="content">
+                <div class="password-div">
+                    <p id="para-1">STEP 2 OF 2</p>
+                    <h1 id="h1">Welcome back! <br>Joining Netflix is easy.</h1>
+                    <p id="para-2">Enter your password and you'll be watching in no time.</p>
+                    <label for="input-1">Email</label>
+                    <p id="mailId"></p>
+                    <input type="password" placeholder="Enter your password" id="input-1" name="Email" required>
+                    <a href="#" id="forgot-password">Forgot your password?</a>
+                    <button type="button" id="NavBtn">Next</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="sec-2">
+        <div class="content-2">
+            <div class="quizz">
+                <p>Questions? Call <a href="#">000-800-919-1694</a></p>
+            </div>
+
+            <div class="Total-link">
+                <div class="row1">
+                    <div class="links-1">
+                        <a href="#">FAQ</a>
+                        <a href="#">Privacy</a>
+                        <div class="option">
+                            <select name="language">
+                                <option value="English">English</option>
+                                <option value="Hindi">हिंदी</option>
+                                <option value="Tamil">தமிழ்</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="links-2">
+                        <a href="#">Help Centre</a>
+                        <a href="#">Cookie Preferences</a>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="links-3">
+                        <a href="#">Netflix Shop</a>
+                        <a href="#">Corporate Information</a>
+                    </div>
+                    <div class="links-4">
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    let btn = document.getElementById('NavBtn');
+    if (btn) { 
+        btn.addEventListener('click', function() {
+            window.location.href = "SignUpPage3.html";
+        });
+    }
+});
+   </script>
+</body>
+</html>

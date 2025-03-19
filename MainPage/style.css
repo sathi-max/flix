@@ -1,0 +1,1457 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Netflix Sans', sans-serif;
+    background-color:#111;
+    color: white;
+}
+
+
+  ::-webkit-scrollbar{
+    width: 7px;
+    background-color: #111;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(206, 10, 42);
+    border-radius: 10px;
+  }
+
+
+.video-div video{
+    position:absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    min-width:100%;
+    max-width:100%;
+    
+    
+}
+.content{
+    position: relative;
+    overflow-x: hidden;
+}
+.nav-bar{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .logo-netflix-1 img {
+    height: 4vh;
+    width: 16vh;
+    padding-left: 5vh;
+}
+
+.links{
+    display: flex;
+    width: 155vh;
+    justify-content: space-between;
+
+}
+
+.anchor-cards{
+    padding: 1.5vh;
+}
+.anchor-cards a{
+    color: rgb(226, 223, 223);
+    text-decoration: none;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 3vh;
+    cursor:pointer;
+}
+.anchor-cards a:hover{
+    text-decoration: underline;
+}
+
+
+.icons small{
+    font-size: 2vh;
+    font-weight: 500;
+}
+.icons i{
+    font-size: 2.2vh;
+    margin-left: 1vh;
+    padding: 1.5vh;
+}
+
+.nav-bar .logo-2 img {
+    height: 5vh;
+    width: 5vh;
+    padding-right: 5vh;
+}
+
+
+.topic{
+    position: relative;
+    margin-top: 15vh;
+    height: 42vh;
+    width: 100%;
+    padding: 2vh;
+    left: 0;
+    right: 0;
+}
+.head {
+    width: 100%;
+    padding: 2vh;
+    
+}
+.head h1{
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: 6.8vh; 
+    padding: 2vh; 
+    margin-left: 3vh;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    padding: 2vh;
+    
+}
+.btn button{
+    color: white;
+    background-color:#5d5656;
+    filter:drop-shadow();
+    font-size: 2.3vh;
+    margin-left: 5.5vh;
+    font-weight: 600;
+    width: 18vh;
+    padding: 1vh;
+    border: none;
+    cursor: pointer;
+
+}
+#play-btn i{
+padding: 1vh;
+}
+
+#More-info-btn i{
+        padding: 1vh;
+}
+.btn button:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: all .5s;
+}
+.para{
+    width: 100%;
+    display: flex;
+}
+.para p{
+    color: white;
+    font-size: 2.8vh;
+    width: 100vh;
+    padding: 2vh;
+    margin-left: 5.5vh;
+
+}
+.Trending-Now{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+
+.Trending-Now h1{
+    font-size: 3.5vh;
+    margin-left: 9vh;
+    font-weight: 600;
+    position: relative;
+}
+
+.Trending-Now .Movies-list{
+    margin-left: 8vh;
+}
+
+.Movies-list{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list img{
+    height: 30vh;
+    width:50vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+
+
+/*--------------------------------------------Section-1 End----------------------------*/
+
+
+/*--------------------------------------------Section-2--------------------------------*/
+
+
+.sec-2{
+    margin-top: 1vh;
+    width: 100%;
+}
+ 
+.Netflix-Original{
+    margin-top: 8vh;
+    overflow-x: hidden;
+}
+.Netflix-Original h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Netflix-Original .Movies-list-1{
+    margin-left: 8vh;
+
+}
+.Movies-list-1{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+    
+}
+.Movies-list-1::-webkit-scrollbar{
+    display: none;
+}
+
+.Movies-list-1 img{
+    height: 40vh;
+    width:25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+   
+} 
+.Movies-list-1 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+.Top-Rated{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    
+}
+
+.Top-Rated h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Top-Rated .Movies-list-2{
+    margin-left: 8vh;
+}
+
+.Movies-list-2{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list-2::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list-2 img{
+    height: 25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list-2 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+.Action-Movies{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    
+}
+
+.Action-Movies h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Action-Movies .Movies-list-3{
+    margin-left: 8vh;
+}
+
+.Movies-list-3{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list-3::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list-3 img{
+    height: 25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list-3 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+
+.Comedy-Movies{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    
+}
+
+.Comedy-Movies h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Comedy-Movies .Movies-list-4{
+    margin-left: 8vh;
+}
+
+.Movies-list-4{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list-4::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list-4 img{
+    height: 25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list-4 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+
+
+.Horror-Movies{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    
+}
+
+.Horror-Movies h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Horror-Movies .Movies-list-5{
+    margin-left: 8vh;
+}
+
+.Movies-list-5{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list-5::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list-5 img{
+    height: 25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list-5 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+
+.Romantic-Movies{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    
+}
+
+.Romantic-Movies h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Romantic-Movies .Movies-list-6{
+    margin-left: 8vh;
+}
+
+.Movies-list-6{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list-6::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list-6 img{
+    height: 25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list-6 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+
+
+.Documentary-Movies{
+    margin-top: 5vh;
+    overflow-x: hidden;
+    
+}
+
+.Documentary-Movies h1{
+    font-size: 3.5vh;
+    margin-left: 5vh;
+    font-weight: 600;
+}
+
+.Documentary-Movies .Movies-list-7{
+    margin-left: 8vh;
+}
+
+.Movies-list-7{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 2vh;
+    transition: transform 900ms;
+}
+.Movies-list-7::-webkit-scrollbar{
+    display:none;
+}
+
+.Movies-list-7 img{
+    height: 25vh;
+    margin: 1vh;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.Movies-list-7 img:hover{
+    transform: scale(1.10);
+    transition: all .5s;
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+/* -------------------------------------responsive for mobile---------------------------------------- */
+
+/* -----------------------------------------800px to 1200px--------------------------------------------- */
+
+
+@media (min-width:800px) and (max-width:1200px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sec-1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-bar{
+        height: 6.5vh;
+        padding: 0.5vh;
+    }
+    .nav-bar .logo-netflix-1 img{
+        height: 1.8vh;
+        width: 8.5vh;
+        padding-left: 3vh;
+    }
+    .icons i{
+        font-size: 1.8vh;
+    }
+    .icons small{
+        font-size: 1.6vh;
+    }
+    .nav-bar .logo-2 img{
+        height: 3vh;
+        width: 3vh;
+    }
+    
+    .video-div video{
+        margin-top: 3vh;
+    position: 100%;
+    width: 100%;
+    }
+
+    .topic{
+        height: 15vh;
+        padding: 0.5vh;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+    .anchor-cards a{
+        display: none;
+    }
+    .head{
+        padding: 0;
+        margin: 0;
+    }
+    .head h1{
+        font-size: 1.2vh;
+        margin-left: 0;
+        padding: 1vh;
+    }
+    .btn{
+        padding: 0;
+        padding-left:0vh ;
+    }
+    .btn #play-btn{
+        padding:0;
+        margin-left: 1vh;
+        font-size: 1vh;
+        width: 6.2vh;
+    }
+    .btn #More-info-btn{
+        padding:0;
+        font-size: 1vh;
+        width: 8.5vh;
+        margin-left: 1vh;
+    }
+    .para{
+        padding: 0;
+        margin: 0;
+    }
+    .para p{
+        font-size: 1vh;
+        padding: 0.5vh;
+        margin-left: 1vh;
+    }
+    .Trending-Now{
+        margin-top: 0vh;
+        padding: 0;
+        padding-left: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Trending-Now .Movies-list{
+        margin-left: 1vh;
+    }
+    .Movies-list{
+        padding: 0;
+        padding-left: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Trending-Now h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Trending-Now img{
+        height: 12vh;
+    }
+    .Trending-Now img:hover{
+        transition: transform 900ms;
+    }
+    
+    .sec-2{
+        width: 100%;
+    }
+    .Netflix-Original{
+        margin-top: 5vh;
+    }
+    .Netflix-Original .Movies-list-1{
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .Netflix-Original h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Netflix-Original img{
+        height: 12vh;
+        transition: transform 900ms;
+    }
+    .Netflix-Original img:hover{
+        transition: transform 900ms;
+    }
+    .Top-Rated{
+        margin-top: 3vh;
+    }
+    .Top-Rated h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Top-Rated .Movies-list-2{
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .Top-Rated img{
+        height: 12vh;
+        transition: transform 900ms;
+    }
+    .Top-Rated img:hover{
+        transition: transform 900ms;
+    }
+    .Action-Movies{
+        margin-top: 3vh;
+    }
+    .Action-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Action-Movies .Movies-list-3{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Action-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Action-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Comedy-Movies{
+        margin-top: 3vh;
+    }
+    .Comedy-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Comedy-Movies .Movies-list-4{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Comedy-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Comedy-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Horror-Movies{
+        margin-top: 3vh;
+    }
+    .Horror-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Horror-Movies .Movies-list-5{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Horror-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Horror-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Romantic-Movies{
+        margin-top: 3vh;
+    }
+    .Romantic-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 1vh;
+    }
+    .Romantic-Movies .Movies-list-6{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Romantic-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Romantic-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Documentary-Movies{
+        margin-top: 3vh;
+    }
+    .Documentary-Movies .Movies-list-7{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Documentary-Movies{
+        height:20vh;
+    }
+    .Documentary-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 1vh;
+    }
+    .Documentary-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Documentary-Movies img:hover{
+        transition: transform 900ms;
+    }
+    
+    
+    }
+
+
+
+/* --------------------------700px to 900px----------------------------------------------- */
+
+@media (min-width:700px) and (max-width:900px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sec-1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-bar{
+        height: 6.5vh;
+        padding: 0.5vh;
+    }
+    .nav-bar .logo-netflix-1 img{
+        height: 1.8vh;
+        width: 8.5vh;
+        padding-left: 3vh;
+    }
+    .icons i{
+        font-size: 1.8vh;
+    }
+    .icons small{
+        font-size: 1.6vh;
+    }
+    .nav-bar .logo-2 img{
+        height: 3vh;
+        width: 3vh;
+    }
+    
+    .video-div video{
+        margin-top: 3vh;
+    position: 100%;
+    width: 100%;
+    }
+
+    .topic{
+        height: 15vh;
+        padding: 0.5vh;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+    .anchor-cards a{
+        display: none;
+    }
+    .head{
+        padding: 0;
+        margin: 0;
+    }
+    .head h1{
+        font-size: 1.2vh;
+        margin-left: 0;
+        padding: 1vh;
+    }
+    .btn{
+        padding: 0;
+        padding-left:0vh ;
+    }
+    .btn #play-btn{
+        padding:0;
+        margin-left: 1vh;
+        font-size: 1vh;
+        width: 6.2vh;
+    }
+    .btn #More-info-btn{
+        padding:0;
+        font-size: 1vh;
+        width: 8.5vh;
+        margin-left: 1vh;
+    }
+    .para{
+        padding: 0;
+        margin: 0;
+    }
+    .para p{
+        font-size: 1vh;
+        padding: 0.5vh;
+        margin-left: 1vh;
+    }
+    .Trending-Now{
+        margin-top: 0vh;
+        padding: 0;
+        padding-left: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Trending-Now .Movies-list{
+        margin-left: 1vh;
+    }
+    .Movies-list{
+        padding: 0;
+        padding-left: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Trending-Now h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Trending-Now img{
+        height: 12vh;
+    }
+    .Trending-Now img:hover{
+        transition: transform 900ms;
+    }
+    
+    .sec-2{
+        width: 100%;
+    }
+    .Netflix-Original{
+        margin-top: 5vh;
+    }
+    .Netflix-Original .Movies-list-1{
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .Netflix-Original h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Netflix-Original img{
+        height: 12vh;
+        transition: transform 900ms;
+    }
+    .Netflix-Original img:hover{
+        transition: transform 900ms;
+    }
+    .Top-Rated{
+        margin-top: 3vh;
+    }
+    .Top-Rated h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Top-Rated .Movies-list-2{
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .Top-Rated img{
+        height: 12vh;
+        transition: transform 900ms;
+    }
+    .Top-Rated img:hover{
+        transition: transform 900ms;
+    }
+    .Action-Movies{
+        margin-top: 3vh;
+    }
+    .Action-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Action-Movies .Movies-list-3{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Action-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Action-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Comedy-Movies{
+        margin-top: 3vh;
+    }
+    .Comedy-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Comedy-Movies .Movies-list-4{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Comedy-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Comedy-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Horror-Movies{
+        margin-top: 3vh;
+    }
+    .Horror-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 2vh;
+    }
+    .Horror-Movies .Movies-list-5{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Horror-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Horror-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Romantic-Movies{
+        margin-top: 3vh;
+    }
+    .Romantic-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 1vh;
+    }
+    .Romantic-Movies .Movies-list-6{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Romantic-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Romantic-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Documentary-Movies{
+        margin-top: 3vh;
+    }
+    .Documentary-Movies .Movies-list-7{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Documentary-Movies{
+        height:20vh;
+    }
+    .Documentary-Movies h1{
+        font-size: 1.3vh;
+        margin-left: 1vh;
+    }
+    .Documentary-Movies img{
+        height: 8vh;
+        width: 15vh;
+        transition: transform 900ms;
+    }
+    .Documentary-Movies img:hover{
+        transition: transform 900ms;
+    }
+    
+    
+    }
+
+
+    
+/* -----------------------------------------650px to 850px--------------------------------------------- */
+
+
+@media (min-width:450px) and (max-width:650px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sec-1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-bar{
+        height: 6.5vh;
+        padding: 0.5vh;
+    }
+    .nav-bar .logo-netflix-1 img{
+        height: 2.5vh;
+        width: 10vh;
+        padding-left: 3vh;
+    }
+    .icons i{
+        font-size: 1.8vh;
+    }
+    .icons small{
+        font-size: 1.6vh;
+    }
+    .logo-2 img{
+        height: 2vh;
+        width: 2vh;
+    }
+    
+    .video-div video{
+        margin-top: 3vh;
+    position: 100%;
+    width: 100%;
+    }
+
+    .topic{
+        height: 21vh;
+        padding: 0.5vh;
+        margin:0;
+        
+    }
+    .anchor-cards a{
+        display: none;
+    }
+    .head{
+        padding: 0;
+        margin: 0;
+    }
+    .head h1{
+        font-size: 2vh;
+        padding-left: 0;
+    }
+    .btn{
+        padding: 0;
+        padding-left:0vh ;
+    }
+    .btn #play-btn{
+        padding:0;
+        font-size: 1.2vh;
+        width: 9.5vh;
+    }
+    .btn #More-info-btn{
+        padding:0;
+        font-size: 1vh;
+        width: 9.5vh;
+    }
+    .para{
+        padding: 0;
+        margin: 0;
+    }
+    .para p{
+        font-size: 1.6vh;
+        padding: 0.5vh;
+    }
+    .Trending-Now{
+        margin-top: 0vh;
+    }
+    .Movies-list{
+        padding: 0;
+    }
+    .Trending-Now h1{
+        font-size: 1.8vh;
+    }
+    .Trending-Now img{
+        height: 16.5vh;
+    }
+    .Trending-Now img:hover{
+        transition: transform 900ms;
+    }
+    
+    .sec-2{
+        width: 100%;
+    }
+    .Netflix-Original h1{
+        font-size: 1.8vh;
+    }
+    .Netflix-Original img{
+        height: 16.5vh;
+        transition: transform 900ms;
+    }
+    .Netflix-Original img:hover{
+        transition: transform 900ms;
+    }
+    
+    .Top-Rated h1{
+        font-size: 1.8vh;
+    }
+    .Top-Rated img{
+        height: 16.5vh;
+        transition: transform 900ms;
+    }
+    .Top-Rated img:hover{
+        transition: transform 900ms;
+    }
+    .Action-Movies h1{
+        font-size: 1.8vh;
+    }
+    .Action-Movies img{
+        height: 12vh;
+        width: 20vh;
+        transition: transform 900ms;
+    }
+    .Action-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Comedy-Movies h1{
+        font-size: 1.8vh;
+    }
+    .Comedy-Movies img{
+        height: 12vh;
+        width: 20vh;
+        transition: transform 900ms;
+    }
+    .Comedy-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Horror-Movies h1{
+        font-size: 1.8vh;
+    }
+    .Horror-Movies img{
+        height: 12vh;
+        width: 20vh;
+        transition: transform 900ms;
+    }
+    .Horror-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Romantic-Movies h1{
+        font-size: 1.8vh;
+    }
+    .Romantic-Movies img{
+        height: 12vh;
+        width: 20vh;
+        transition: transform 900ms;
+    }
+    .Romantic-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Documentary-Movies{
+        height:20vh;
+    }
+    .Documentary-Movies h1{
+        font-size: 1.8vh;
+    }
+    .Documentary-Movies img{
+        height: 12vh;
+        width: 20vh;
+        transition: transform 900ms;
+    }
+    .Documentary-Movies img:hover{
+        transition: transform 900ms;
+    }
+    
+    
+    }
+
+
+
+    /* -----------------------------------------300px to 450px--------------------------------------------- */
+
+
+@media (min-width:300px) and (max-width:450px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sec-1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-bar{
+        height: 6.5vh;
+        padding: 0.5vh;
+    }
+    .nav-bar .logo-netflix-1 img{
+        height: 1.8vh;
+        width: 8.5vh;
+        padding-left: 3vh;
+    }
+    .icons i{
+        font-size: 1.8vh;
+    }
+    .icons small{
+        font-size: 1.6vh;
+    }
+    .nav-bar .logo-2 img{
+        height: 3vh;
+        width: 3vh;
+    }
+    
+    .video-div video{
+        margin-top: 3vh;
+    position: 100%;
+    width: 100%;
+    }
+
+    .topic{
+        height: 15vh;
+        padding: 0.5vh;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+    .anchor-cards a{
+        display: none;
+    }
+    .head{
+        padding: 0;
+        margin: 0;
+    }
+    .head h1{
+        font-size: 1.2vh;
+        margin-left: 0;
+        padding: 1vh;
+    }
+    .btn{
+        padding: 0;
+        padding-left:0vh ;
+    }
+    .btn #play-btn{
+        padding:0;
+        margin-left: 1vh;
+        font-size: 1vh;
+        width: 6.2vh;
+    }
+    .btn #More-info-btn{
+        padding:0;
+        font-size: 1vh;
+        width: 8.5vh;
+        margin-left: 1vh;
+    }
+    .para{
+        padding: 0;
+        margin: 0;
+    }
+    .para p{
+        font-size: 1vh;
+        padding: 0.5vh;
+        margin-left: 1vh;
+    }
+    .Trending-Now{
+        margin-top:0vh;
+        padding: 0;
+        padding-left: 0;
+        padding-top: 2.5vh;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Trending-Now .Movies-list{
+        margin-left: 1vh;
+    }
+    .Movies-list{
+        padding: 0;
+        padding-left: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Trending-Now h1{
+        font-size: 2vh;
+        margin-left: 2vh;
+    }
+    .Trending-Now img{
+        height: 20vh;
+    }
+    .Trending-Now img:hover{
+        transition: transform 900ms;
+    }
+    
+    .sec-2{
+        width: 100%;
+    }
+    .Netflix-Original{
+        margin-top: 5vh;
+    }
+    .Netflix-Original .Movies-list-1{
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .Netflix-Original h1{
+        font-size: 2vh;
+        margin-left: 2vh;
+    }
+    .Netflix-Original img{
+        height: 20vh;
+        transition: transform 900ms;
+    }
+    .Netflix-Original img:hover{
+        transition: transform 900ms;
+    }
+    .Top-Rated{
+        margin-top: 3vh;
+    }
+    .Top-Rated h1{
+        font-size: 2vh;
+        margin-left: 2vh;
+    }
+    .Top-Rated .Movies-list-2{
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+    .Top-Rated img{
+        height: 18vh;
+        transition: transform 900ms;
+    }
+    .Top-Rated img:hover{
+        transition: transform 900ms;
+    }
+    .Action-Movies{
+        margin-top: 3vh;
+    }
+    .Action-Movies h1{
+        font-size: 2vh;
+        margin-left: 2vh;
+    }
+    .Action-Movies .Movies-list-3{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Action-Movies img{
+        height: 18vh;
+        transition: transform 900ms;
+    }
+    .Action-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Comedy-Movies{
+        margin-top: 3vh;
+    }
+    .Comedy-Movies h1{
+        font-size: 2vh;
+        margin-left: 2vh;
+    }
+    .Comedy-Movies .Movies-list-4{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Comedy-Movies img{
+        height: 18vh;
+        transition: transform 900ms;
+    }
+    .Comedy-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Horror-Movies{
+        margin-top: 3vh;
+    }
+    .Horror-Movies h1{
+        font-size: 2vh;
+        margin-left: 2vh;
+    }
+    .Horror-Movies .Movies-list-5{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Horror-Movies img{
+        height: 18vh;
+        transition: transform 900ms;
+    }
+    .Horror-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Romantic-Movies{
+        margin-top: 3vh;
+    }
+    .Romantic-Movies h1{
+        font-size: 2vh;
+        margin-left: 1vh;
+    }
+    .Romantic-Movies .Movies-list-6{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Romantic-Movies img{
+        height: 18vh;
+        transition: transform 900ms;
+    }
+    .Romantic-Movies img:hover{
+        transition: transform 900ms;
+    }
+    .Documentary-Movies{
+        margin-top: 3vh;
+    }
+    .Documentary-Movies .Movies-list-7{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+    .Documentary-Movies h1{
+        font-size: 2vh;
+        margin-left: 1vh;
+    }
+    .Documentary-Movies img{
+        height: 18vh;
+        transition: transform 900ms;
+    }
+    .Documentary-Movies img:hover{
+        transition: transform 900ms;
+    }
+    
+    
+    }
+

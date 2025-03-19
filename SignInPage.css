@@ -1,0 +1,894 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.section-1{
+    width: 100%;
+    height:140vh;
+    background-image:url("Background Image/background-image-1.jpg");
+    background-repeat:repeat;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+    padding: 2vh;
+     
+}
+
+.total-content-1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.netflix-word{
+    align-items: center;
+    justify-content: left;
+    padding: 2vh;
+}
+.netflix-word img{
+  height: 6vh;
+  width: 18vh;
+  margin-left: 2vh;
+}
+
+.SignIn-div{
+    border:1px solid black;
+    background-color: black;
+    width: 65vh;
+    height: 110vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.90;
+    text-align: left;
+    padding: 2vh 8vh;
+    margin-top: 4vh;
+    color: white;
+}
+.SignIn-div h1{
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    font-size: 5vh;
+    font-weight: 700;
+}
+.SignIn-div input{
+    color: white;
+    background-color: black ;
+    font-size: 2.3vh;
+    padding: 2vh;
+    height: 8vh;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 114, 114);
+    margin-bottom:2.5vh;
+}
+
+.SignIn-div #SignIn{
+    font-size: 2.3vh;
+    color: white;
+    background-color: red;
+    padding: 1.5vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.SignIn-div #code{
+    font-size: 2.2vh;
+    color: white;
+    background-color: grey;
+    padding: 1.5vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.53;
+}
+
+#or{
+    font-size: 2.5vh;
+    color: rgb(145, 142, 142);
+    text-align: center;
+    margin:2vh;
+}
+
+.SignIn-div #Forgot{
+    text-align: center;
+    margin: 2vh;
+    text-decoration: none;
+    font-size: 2.3vh;
+    color: white;
+    cursor:pointer;
+}
+
+.check-box{
+   
+    text-align: left;
+    display:flex;  
+    flex-direction: row; 
+    height: 4vh; 
+}
+
+.check-box label{
+   font-size: 2.4vh;
+   margin-left: 2vh;
+   margin-top: 1vh;
+    color: white;
+}
+.check-box input{
+   width: 2.6vh;
+   margin-top: -1.5vh;
+}
+.check-box [type="checkbox"]{
+    accent-color: white;
+    
+}
+.sign-up{
+    display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 3vh;
+        
+}
+.sign-up p{
+    font-size: 2.3vh;
+    color: white;
+}
+.sign-up a{
+    font-size: 2.4vh;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5vh;
+    margin-top: 1.5vh;
+}
+
+.SignIn-div small{
+    font-size: 2vh;
+    margin-top: 3.5vh;
+    text-align: left;
+    color: grey;
+}
+.SignIn-div small a{
+    text-decoration: none;
+    color: rgb(45, 45, 253);
+}
+
+.SignIn-div p{
+    font-size: 2vh;
+    margin-top: 2vh;
+    color: grey;   
+}
+.SignIn-div p a{
+    text-decoration: none;
+    color: rgb(45, 45, 253);
+}
+
+
+
+/* ----------------------------------------------section-2----------------------------------------- */
+
+
+.sec-2{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2vh;
+}
+
+.footer{
+    padding: 1vh;
+}
+.content-2{
+    align-items: center;
+    text-align: left;
+    
+}
+.content-2 a{
+    color: grey;
+    text-decoration: none;
+    font-size: 2.1vh;
+}
+.content-2 a:hover{
+text-decoration: underline;
+}
+
+.quizz{
+    padding-left: 4vh;
+    padding-top: 3.1vh;
+}
+.quizz p{
+font-size: 2vh;
+color: grey;
+}
+.quizz a{
+    text-decoration: none;
+    color: grey;
+    font-size: 2vh;
+}
+.quizz a:hover{
+    text-decoration: underline;
+}
+
+
+.Total-link{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 2vh;
+    justify-content: space-between;
+}
+.Total-link a{
+    font-size: 2vh;
+}
+.row1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+}
+.row2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+}
+
+
+.links-1{
+    width: 50%;
+    padding: 1vh;
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+.links-2{
+    width: 50%;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+    .links-3{
+        width: 50%;
+        padding: 1vh;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        }
+        .links-4{
+            width: 50%;
+            padding: 1vh;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            }
+
+
+            .links-1 a{
+                margin: 1.5vh 0vh;
+            }
+            .links-2 a{
+                margin: 1.5vh 0vh;
+            }
+            .links-3 a{
+                margin: 1.5vh 0vh;
+            }
+            .links-4 a{
+                margin: 1.5vh 0vh;
+            }
+
+.option select{
+    padding: 0.5vh;
+    font-size: 2vh;
+    width: 18vh;
+    height: 5vh;
+    border-radius: 3px;
+    text-align: center;
+    border:1px solid rgb(188, 187, 187);
+}
+
+
+@media(min-width:800px)and (max-width:1000px){
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.section-1{
+    width: 100%;
+}
+.netflix-word img{
+    height: 4vh;
+    width: 12vh;
+}
+.container .SignIn-div{
+    width: 50vh;
+}
+.SignIn-div h1{
+    font-size: 2.8vh;
+}
+
+}
+
+
+
+
+@media(min-width:1000px)and (max-width:1500px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1{
+        width: 100%;
+    }
+    .netflix-word img{
+        height: 4vh;
+        width: 12vh;
+        margin-left: 2vh;
+    }
+    .container .SignIn-div{
+        width: 60vh;
+    }
+    .SignIn-div{
+        padding: 6vh;
+        padding-top: 2vh;
+    }
+    .SignIn-div h1{
+        font-size: 3vh;
+    }
+    .SignIn-div input::placeholder{
+    font-size: 2vh
+    }
+    .SignIn-div input{
+        font-size: 2vh;
+        height: 6vh;
+        padding: 1vh;
+        padding-left: 2vh;
+        }
+
+    .SignIn-div #SignIn{
+        font-size: 2vh;
+    }
+    .SignIn-div #or{
+        font-size: 2vh;
+    }
+    .SignIn-div #code{
+        font-size: 2vh;
+    }
+    .SignIn-div #forgot{
+        font-size: 2vh;
+    }
+    .SignIn-div .check-box input{
+        height: 2vh;
+        margin-top: 1.5vh;
+    }
+    .SignIn-div .check-box label{
+        font-size: 2vh;
+    }
+    .SignIn-div .sign-up p{
+        font-size: 1.8vh;
+    }
+    .SignIn-div .sign-up a{
+        font-size: 1.8vh;
+    }
+    .SignIn-div small{
+        font-size: 1.8vh;
+    }
+    .SignIn-div p{
+        font-size: 1.8vh;
+    }
+
+    
+    }
+
+
+@media(min-width:50px)and (max-width:1200px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sec-2 .container{
+        padding: 3vh 2vh;
+        height: 5vh;
+        border: 1px solid black;
+    }
+    #netflix-logo{
+    height: 3vh;
+    width: 11vh;
+    }
+    .Total-link{
+        display: flex;
+        flex-direction: row;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    .Total-link a{
+        font-size: 1.5vh;
+    }
+    .Total-link select{
+        font-size: 1.8vh;
+    }
+    .container{
+        border-bottom: 1px solid rgb(165, 160, 160);
+        border-right: none;
+    }
+    }
+
+
+/* ------------------------------------------800px to 1000px -------------------------------------  */
+    
+@media(min-width:800px)and (max-width:1000px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1{
+        width: 100%;
+    }
+    .netflix-word {
+        padding: 1vh;
+    }
+    .netflix-word img{
+        height: 3vh;
+        width: 12vh;
+        margin-left: 0vh;
+    }
+    .container .SignIn-div{
+        width: 50vh;
+    }
+    .SignIn-div{
+        padding: 6vh;
+        padding-top: 2vh;
+    }
+    .SignIn-div h1{
+        font-size: 3vh;
+    }
+    .SignIn-div input::placeholder{
+    font-size: 2vh
+    }
+    .SignIn-div input{
+        font-size: 2vh;
+        height: 6vh;
+        padding: 1vh;
+        padding-left: 2vh;
+        }
+
+    .SignIn-div #SignIn{
+        font-size: 2vh;
+    }
+    .SignIn-div #or{
+        font-size: 2vh;
+    }
+    .SignIn-div #code{
+        font-size: 2vh;
+    }
+    .SignIn-div #Forgot{
+        font-size: 2vh;
+    }
+    .SignIn-div .check-box input{
+        height: 2vh;
+        margin-top: 1.5vh;
+    }
+    .SignIn-div .check-box label{
+        font-size: 2vh;
+    }
+    .SignIn-div .sign-up p{
+        font-size: 1.8vh;
+    }
+    .SignIn-div .sign-up a{
+        font-size: 1.8vh;
+    }
+    .SignIn-div small{
+        font-size: 1.8vh;
+    }
+    .SignIn-div p{
+        font-size: 1.8vh;
+    }
+
+    
+    }
+
+
+
+
+    
+/* ------------------------------------------650px to 800px -------------------------------------  */
+    
+@media(min-width:650px)and (max-width:800px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1{
+        width: 100%;
+        height: 120vh;
+    }
+    .netflix-word {
+        padding: 1vh;
+    }
+    .netflix-word img{
+        height: 3vh;
+        width: 12vh;
+        margin-left: 0vh;
+    }
+    .container .SignIn-div{
+        width: 40vh;
+        height: 95vh;
+    }
+    .SignIn-div{
+        padding: 4vh;
+        padding-top: 1vh;
+    }
+    .SignIn-div h1{
+        font-size: 2.5vh;
+        margin-top: 1vh;
+        margin-bottom: 2.3vh;
+    }
+    .SignIn-div input::placeholder{
+    font-size: 1.6vh
+    }
+    .SignIn-div input{
+        font-size: 1.6vh;
+        height: 5vh;
+        padding: 1vh;
+        padding-left: 1.5vh;
+        }
+
+    .SignIn-div #SignIn{
+        font-size: 1.6vh;
+        padding: 1vh;
+    }
+    .SignIn-div #or{
+        font-size: 1.6vh;
+    }
+    .SignIn-div #code{
+        font-size: 1.6vh;
+        padding: 1vh;
+    }
+    .SignIn-div #Forgot{
+        font-size: 1.6vh;
+    }
+    .SignIn-div .check-box input{
+        height: 1.5vh;
+        margin-top: 1.4vh;
+    }
+    .SignIn-div .check-box label{
+        font-size: 1.6vh;
+        margin-left: 0.5vh;
+    }
+    .SignIn-div .sign-up p{
+        margin-top: 1.6vh;
+        font-size: 1.5vh;
+    }
+    .SignIn-div .sign-up a{
+        font-size: 1.5vh;
+    }
+    .SignIn-div small{
+        font-size: 1.5vh;
+    }
+    .SignIn-div p{
+        font-size: 1.5vh;
+    }
+
+    .sec-2{
+        width: 100%;
+    }
+
+    .sec-2 .container{
+        padding: 3vh 2vh;
+        height: 5vh;
+        border: 1px solid black;
+    }
+    .sec-2 .quizz p{
+        font-size: 1.5vh;
+    }
+    .sec-2 .quizz a{
+        font-size: 1.5vh;
+    }
+    .Total-link{
+        display: flex;
+        flex-direction: row;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    .Total-link a{
+        font-size: 1.5vh;
+    }
+    .Total-link select{
+        font-size: 1.5vh;
+        padding: 0.5vh;
+        height: 3.5vh;
+        width: 10vh;
+    }
+    .container{
+        border-bottom: 1px solid rgb(165, 160, 160);
+        border-right: none;
+    }
+    
+    }
+
+
+
+      
+/* ------------------------------------------350px to 650px -------------------------------------  */
+    
+@media(min-width:450px)and (max-width:650px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1{
+        width: 100%;
+        height: 100vh;
+    }
+    .netflix-word {
+        padding: 0.5vh;
+    }
+    .netflix-word img{
+        height: 2vh;
+        width: 8vh;
+        margin-left: 0vh;
+    }
+    .container .SignIn-div{
+        width: 100%;
+        height: 80vh;
+    }
+    .SignIn-div{
+        padding: 4vh;
+        padding-top: 1vh;
+    }
+    .SignIn-div h1{
+        font-size: 3vh;
+        margin-top: 1vh;
+        margin-bottom: 2.3vh;
+    }
+    .SignIn-div input::placeholder{
+    font-size: 1.5vh
+    }
+    .SignIn-div input{
+        font-size: 1.3vh;
+        height: 3.8vh;
+        padding: 0.8vh;
+        padding-left: 1.2vh;
+        }
+
+    .SignIn-div #SignIn{
+        font-size: 1.3vh;
+        padding: 0.8vh;
+    }
+    .SignIn-div #or{
+        font-size: 1.3vh;
+    }
+    .SignIn-div #code{
+        font-size: 1.6vh;
+        padding: 1vh;
+    }
+    .SignIn-div #Forgot{
+        font-size: 1.3vh;
+    }
+    .SignIn-div .check-box input{
+        height: 1.4vh;
+        margin-top: 1.2vh;
+    }
+    .SignIn-div .check-box label{
+        font-size: 1.3vh;
+        margin-left: 0.5vh;
+    }
+    .SignIn-div .sign-up p{
+        margin-top: 1.3vh;
+        font-size: 1.3vh;
+    }
+    .SignIn-div .sign-up a{
+        font-size: 1.3vh;
+    }
+    .SignIn-div small{
+        font-size: 1.3vh;
+    }
+    .SignIn-div p{
+        font-size: 1.3vh;
+    }
+
+    .sec-2{
+        width: 100%;
+    }
+
+    .sec-2 .container{
+        padding: 3vh 2vh;
+        height: 5vh;
+        border: 1px solid black;
+    }
+    .sec-2 .quizz p{
+        font-size: 1.5vh;
+    }
+    .quizz{
+        padding-left: 1vh;
+    }
+    .sec-2 .quizz a{
+        font-size: 1.5vh;
+    }
+    .Total-link{
+        display: flex;
+        flex-direction: row;
+        padding: 0.5vh;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5vh;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5vh;
+    }
+    .Total-link a{
+        font-size: 1.3vh;
+    }
+    .Total-link select{
+        font-size: 1.3vh;
+        padding: 0.5vh;
+        height: 3vh;
+        width: 8vh;
+    }
+    .container{
+        border-bottom: 1px solid rgb(165, 160, 160);
+        border-right: none;
+    }
+    
+    }
+
+
+
+
+          
+/* ------------------------------------------300px to 450px -------------------------------------  */
+    
+@media(min-width:300px)and (max-width:450px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .section-1{
+        width: 100%;
+        height: 100vh;
+        padding: 1vh;
+    }
+    .netflix-word {
+        padding: 0.5vh;
+    }
+    .netflix-word img{
+        height: 1.5vh;
+        width: 6vh;
+        margin-left: 0vh;
+    }
+    .container .SignIn-div{
+        width: 100%;
+        height: 80vh;
+    }
+    .SignIn-div{
+        padding: 4vh;
+        padding-top: 1vh;
+    }
+    .SignIn-div h1{
+        font-size: 2.5vh;
+        margin-top: 1vh;
+        margin-bottom: 2.3vh;
+    }
+    .SignIn-div input::placeholder{
+    font-size: 1.3vh
+    }
+    .SignIn-div input{
+        font-size: 1.5vh;
+        height: 4vh;
+        padding: 0.8vh;
+        padding-left: 1.2vh;
+        }
+
+    .SignIn-div #SignIn{
+        font-size: 1.3vh;
+        padding: 0.8vh;
+    }
+    .SignIn-div #or{
+        font-size: 1.3vh;
+    }
+    .SignIn-div #code{
+        font-size: 1.6vh;
+        padding: 1vh;
+    }
+    .SignIn-div #Forgot{
+        font-size: 1.3vh;
+    }
+    .SignIn-div .check-box input{
+        height: 1.4vh;
+        margin-top: 1.2vh;
+    }
+    .SignIn-div .check-box label{
+        font-size: 1.3vh;
+        margin-left: 0.5vh;
+    }
+    .SignIn-div .sign-up p{
+        margin-top: 1.3vh;
+        font-size: 1.3vh;
+    }
+    .SignIn-div .sign-up a{
+        font-size: 1.3vh;
+    }
+    .SignIn-div small{
+        font-size: 1.3vh;
+    }
+    .SignIn-div p{
+        font-size: 1.3vh;
+    }
+
+    .sec-2{
+        width: 100%;
+    }
+
+    .sec-2 .container{
+        padding: 3vh 2vh;
+        height: 5vh;
+        border: 1px solid black;
+    }
+    .sec-2 .quizz p{
+        font-size: 1.5vh;
+    }
+    .quizz{
+        padding-left: 1vh;
+    }
+    .sec-2 .quizz a{
+        font-size: 1.5vh;
+    }
+    .Total-link{
+        display: flex;
+        flex-direction: row;
+        padding: 0.5vh;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5vh;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5vh;
+    }
+    .Total-link a{
+        font-size: 1.3vh;
+    }
+    .Total-link select{
+        font-size: 1.3vh;
+        padding: 0.5vh;
+        height: 3vh;
+        width: 8vh;
+    }
+    .container{
+        border-bottom: 1px solid rgb(165, 160, 160);
+        border-right: none;
+    }
+    
+    }

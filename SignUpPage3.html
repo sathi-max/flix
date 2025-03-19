@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="netflix_logo_icon.png">
+    <link rel="stylesheet" href="SignUpPage3.css">
+</head>
+<body>
+    <section class="sec-1">
+        <form action="">
+            <div class="container">
+                <img src="netflix_official_logo_icon.png" id="netflix-logo">
+                <a href="index.html" id="btn-SignOut">Sign Out</a>
+            </div>
+
+            <div class="content">
+                <div class="plan-div">
+                    <div class="tick-mark">
+                        <img src="Round-Tick.png">
+                        <small>STEP <span>2</span> OF <span>2</span></small>
+                    </div>
+                    <div class="head">
+                        <h1>Choose your plan.</h1>
+                    </div>
+                    
+                    <div class="para-div">
+                        <p><img src="Tick.jpeg" class="img-Tick"> No commitments, cancel <small>anytime.</small></p>
+                        <p><img src="Tick.jpeg" class="img-Tick"> Everything on Netflix for only <small>free.</small></p>
+                        <p><img src="Tick.jpeg" class="img-Tick"> No ads and no fees for Ever.</p>
+                    </div>
+                    
+                    <button type="button" id="btnNext" onclick="NavBtn1()">Next</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="sec-2">
+        <div class="content-2">
+            <div class="quizz">
+                <p>Questions? Call <a href="#">000-800-919-1694</a></p>
+            </div>
+
+            <div class="Total-link">
+                <div class="row1">
+                    <div class="links-1">
+                        <a href="#">FAQ</a>
+                        <a href="#">Privacy</a>
+                        <div class="option">
+                            <select name="language">
+                                <option value="English">English</option>
+                                <option value="Hindi">हिंदी</option>
+                                <option value="Tamil">தமிழ்</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="links-2">
+                        <a href="#">Help Centre</a>
+                        <a href="#">Cookie Preferences</a>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="links-3">
+                        <a href="#">Netflix Shop</a>
+                        <a href="#">Corporate Information</a>
+                    </div>
+                    <div class="links-4">
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function NavBtn1(){
+window.location.href="/MainPage/index.html";
+}
+
+
+document.addEventListener("DOMContentLoaded",function(){
+    let btn2=document.getElementById("btnNext");
+    if(btn2){
+        btn2.addEventListener("click",NavBtn1);
+    }
+})
+
+    </script>
+</body>
+</html>
